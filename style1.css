@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: system-ui;
-    background-image: url("../images/manchesterskyline.jpg");
+    background-image: url("./images/manchesterskyline.jpg");
     background-size: cover;
 }
 
