@@ -1,0 +1,353 @@
+* {
+    /* standard for all components entered */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui;
+    background-image: url("../images/manchesterskyline.jpg");
+    background-size: cover;
+}
+
+p {
+    /* default settings for paragraphs */
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* text-align center; */
+}
+
+img {
+    width: 50%;
+    /* float:left */
+}
+
+a{
+/* default settings for links */
+    color: antiquewhite;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#nav_bar {
+    display: flex;
+    justify-content: space-around;
+    /* horizontally ^^ */
+    align-items: center;
+    /* vertically ^^ */
+}
+
+#nav_bar a{
+/* link settings in my nav bar */
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#nav_bar a:hover {
+/* targeting links in my nav bar, changing the color when you hover over them */
+    color: darkblue;
+}
+
+
+h1{
+/* default settings for headings */
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+    #header h1{
+    display: flex;
+    justify-content: space-around;
+    color: antiquewhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.section_one{
+    border: solid transparent 2px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#textfrontpagetop{
+    border: solid transparent 10px;
+    display: flex;
+    color: darkblue;
+    width: 65%;
+    margin-left: -75px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#textfrontpagetop p{
+    border: solid antiquewhite 10px;
+    margin-bottom: 260px;
+}
+
+
+.section_three_aboutus{
+    border: solid transparent 10px;
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10px;
+}
+
+.section_four{
+    border:solid transparent 10px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+
+#imagemanchesternorthernquarter img{
+    border: solid gray 10px;
+}
+
+#toptextaboutus{
+    border: solid transparent 10px;
+    display: flex;
+    color: darkblue;
+    width: 65%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+}
+
+#toptextaboutus p{
+    margin-top: -100px;
+    border: solid darkblue 10px;
+    margin-bottom: 275px;
+    margin-left: 10px;
+}
+
+#imagemancskyline{
+    border: solid lightskyblue 10px;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+
+#titlewhatson {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#textwhatson p{
+    border: solid darkblue 10px;
+    margin-bottom: 165px;
+}
+
+#nav_bar_whatson {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav_bar_whatson a:hover{
+    color: darkblue;
+}
+
+#nav_bar_about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav_bar_about a:hover{
+    color: darkblue;
+}
+
+
+
+#frontpagetagline p{
+    color: antiquewhite;
+}
+
+
+.section_five{
+    border: solid transparent 10px;
+    display: flex;
+    color: darkblue;
+    width: 50%;
+}
+
+.section_six{
+    border: solid transparent 10px;
+    display: flex;
+    color: darkblue;
+    width: 40%;
+    justify-content: center;
+    margin-left: 975px;
+    margin-top: -103px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:antiquewhite
+}
+
+li{
+    float: left;
+}
+
+li a, dropbtn {
+    display: inline-block;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, dropdown:hover .dropbtn {
+    background-color: antiquewhite;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropbtn{
+    background-color: antiquewhite;
+    color: darkblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.science-content {
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.science-content a{
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.science-content a:hover {background-color: gray;}
+
+
+.arts-content {
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.arts-content a{
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.arts-content a:hover {background-color: gray;}
+
+
+.crafts-content {
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.crafts-content a{
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.crafts-content a:hover {background-color: gray;}
+
+.diy-content {
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.diy-content a{
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.diy-content a:hover {background-color: gray;}
+
+
+.dropdown {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown:hover .science-content {
+    display: block;
+}
+
+.dropdown:hover .arts-content {
+    display: block;
+}
+
+.dropdown:hover .crafts-content {
+    display: block;
+}
+
+.dropdown:hover .diy-content {
+    display: block;
+}
